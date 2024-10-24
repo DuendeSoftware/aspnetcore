@@ -16,7 +16,7 @@
 
         <!--Minver-->
         <MinVerMinimumMajorMinor>0.1</MinVerMinimumMajorMinor>
-        <MinVerTagPrefix>anc-</MinVerTagPrefix>
+        <MinVerTagPrefix>jwt-</MinVerTagPrefix>
     </PropertyGroup>
 
     <ItemGroup>
