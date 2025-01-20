@@ -1,15 +1,15 @@
 <Project>
   <PropertyGroup Condition=" '$(TargetFramework)' == 'net8.0'">
     <!-- We depend on the most permissive version of the JwtBearer handler 
-             that doesn't give us a transitive depedency on a vulnerable package. -->
+             that doesn't give us a transitive dependency on a vulnerable package. -->
     <FrameworkVersion>8.0.1</FrameworkVersion>
     <ExtensionsVersion>8.0.0</ExtensionsVersion>
     <WilsonVersion>7.1.2</WilsonVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(TargetFramework)' == 'net9.0'">
     <!-- We depend on the most permissive version of the JwtBearer handler 
-             that doesn't give us a transitive depedency on a vulnerable package. -->
-    <FrameworkVersion>9.0.1</FrameworkVersion>
+             that doesn't give us a transitive dependency on a vulnerable package. -->
+    <FrameworkVersion>9.0.0</FrameworkVersion>
     <ExtensionsVersion>9.0.0</ExtensionsVersion>
     <WilsonVersion>8.0.1</WilsonVersion>
   </PropertyGroup>
